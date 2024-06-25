@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors Tournament</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+    
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center my-4">Rock Paper Scissors Tournament</h1>
+        <div id="round-result" class="result text-center alert alert-info"></div>
+        <div id="game-result" class="result text-center alert alert-success"></div>
+        <div class="row scoreboard justify-content-center">
+            <div class="col-md-3">
+                <div class="card text-center">
+                    <div class="card-header">
+                        John
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Score</h5>
+                        <p class="card-text" id="score1">0</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card text-center">
+                    <div class="card-header">
+                        Jill
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Score</h5>
+                        <p class="card-text" id="score2">0</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card text-center">
+                    <div class="card-header">
+                        Alice
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Score</h5>
+                        <p class="card-text" id="score3">0</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card text-center">
+                    <div class="card-header">
+                        Bob
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Score</h5>
+                        <p class="card-text" id="score4">0</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center">
+            <button id="start-tournament" class="btn btn-outline-success btn-lg">Start Tournament</button>
+        </div>
+        <div id="tournament-result" class="result text-center alert alert-warning mt-4"></div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="rockPaperScissors.js"></script>
+</body>
+</html>
